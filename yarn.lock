@@ -1569,7 +1569,7 @@
 
 "@mageswap/v3-periphery@github:mageswap/v3-periphery":
   version "1.4.3"
-  resolved "https://codeload.github.com/mageswap/v3-periphery/tar.gz/4828d593d836f471305b1bee2c0dba4fdbecb7c3"
+  resolved "https://codeload.github.com/mageswap/v3-periphery/tar.gz/4715749d8cd97db03a3bccfda887688cbacdcff9"
   dependencies:
     "@mageswap/lib" "github:mageswap/lib"
     "@mageswap/v2-core" "github:mageswap/v2-core"
