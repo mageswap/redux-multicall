@@ -1,5 +1,5 @@
 {
-  "name": "@uniswap/redux-multicall",
+  "name": "@mageswap/redux-multicall",
   "version": "1.1.6",
   "description": "A React + Redux lib for fetching and caching chain state via the MultiCall contract",
   "main": "dist/index.js",
@@ -18,7 +18,7 @@
     "access": "public"
   },
   "scripts": {
-    "contracts:compile": "typechain --target ethers-v5 --out-dir src/abi/types './node_modules/@uniswap/v3-periphery/artifacts/contracts/**/*Multicall*.json'",
+    "contracts:compile": "typechain --target ethers-v5 --out-dir src/abi/types './node_modules/@mageswap/v3-periphery/artifacts/contracts/**/**/**/*Multicall*.json'",
     "lint": "tsdx lint .",
     "test": "tsdx test src",
     "test:e2e": "tsdx test integration-tests",
@@ -41,7 +41,7 @@
     "@types/jest": "^25.2.1",
     "@types/react": "^17.0.28",
     "@types/react-dom": "^17.0.14",
-    "@uniswap/v3-periphery": "^1.3.0",
+    "@mageswap/v3-periphery": "github:mageswap/v3-periphery",
     "dotenv": "^16.0.3",
     "eslint-plugin-prettier": "3.4.1",
     "ethers": "^5.4.7",

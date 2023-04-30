@@ -4,7 +4,7 @@ A React + Redux library for fetching, batching, and caching chain state via the 
 
 ## Setup
 
-`yarn add @uniswap/redux-multicall` or `npm install @uniswap/redux-multicall`
+`yarn add @mageswap/redux-multicall` or `npm install @mageswap/redux-multicall`
 
 ## Usage
 
@@ -24,7 +24,7 @@ export const rootReducer = combineReducers({
 To use the updater, you'll need an instance of the Uniswap Multicall2 contract:
 
 ```js
-import { abi as MulticallABI } from '@uniswap/v3-periphery/artifacts/contracts/lens/UniswapInterfaceMulticall.sol/UniswapInterfaceMulticall.json'
+import { abi as MulticallABI } from '@mageswap/v3-periphery/artifacts/contracts/lens/UniswapInterfaceMulticall.sol/UniswapInterfaceMulticall.json'
 import { Contract } from '@ethersproject/contracts'
 import { UniswapInterfaceMulticall } from './abi/types'
 
